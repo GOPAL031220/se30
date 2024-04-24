@@ -1,0 +1,108 @@
+Software EngineeringAssignment 
+ 
+MODULE: 1 
+SE – Overview of IT Industry 
+
+1. What is Software? What is Software Engineering? 
+Software is a set of Instructions given to computer to get desired results and proper functioning of computer system. Software Engineering is a study of  Computer system and computer programing languages, which teaches us "how does any computer works?", how any software is created and its proper functioning is maintained.
+
+2. Explain types of Software.
+There are 5 types of Software
+(A) Application Software :
+-Application software is a computer software package that performs a specific function for user.
+-Application softwares are designed to carry out specific task other than one relating to the operation of computer.
+-Examples: Powerpoint, Facebook, whatsapp, video editing apps etc.
+
+(B) System Software :
+-System softwares are designed to provide a platform for running computer hardware and other software applications.
+-Operating systems like windows, linux and macOS are examples of of system software, because they manage the computer's resources and provide a user interface.
+-System software coordinates the functions and activities of the hardware and software.
+
+(C) Driver software :
+- Driver software is a type of system software.
+-Every device which is connected to a computer needs at least one device driver to function.
+-drivers are essential for ensuring that devices such as printers, graphics cards and network adapters work correctly with a computer system.
+-Example: audio driver, video driver etc.
+
+(D) Middle ware
+-Middleware software is a type of software that acts as a bridge or intermediary between Application and system software or between two different application software.
+-It is also used to mediate computers with different operating system.
+-Example: database middleware, application server middleware
+
+(E)Programming software
+-programing software and programming tools enables develovers to devlop, write amd test other programs.
+- Examples: complilers, interpreters etc.
+
+
+(3)What is SDLC? Explain each phase of SDLC.
+ -SDLC (Software development life cycle) is a process used by software development teams to design, devlop,test and deploy software.
+-It helps to ensure that software projects are completed efficiently and meet the needs of user.
+SDLC focus on the following phases of software development.
+
+(A) Requirement Gathering
+-users of software will give the complete description about "which type of software they need", "what functions should be included in the software"
+-This phase define the project scope, objectives and requirementrs.
+
+(B) Analysis
+-In this phase requirements gathered are analyzed in detail to ensure they are clear, complete and consistent.
+-this helps in ideentifiying any issues or conflicts.
+
+(C) Designning
+-Once the requirements are finalized the system blue prints are created.
+-This phase involves designing the overall structure of system including database design, user interface design and system architecture.
+
+(D)Implementation
+ -In this phase developers start coding based on the design. They follow coding standards and protocols to write clean and efficient code.
+-This phase involves collaboration between developers and may use various programming languages and tools.
+
+(E)Testing
+- Once the coding is completed, the software is tested to identify and fix any defects or bugs. This includes functional testing, perfomance testing and security testing.
+
+(F) Maintenance
+-system is monitored and updated as needed to address any issue, system is also updated to ensure security level.
+
+
+(4) what is DFD? create a DFD diagram on flipcart.
+- A Data Flow Diagram (DFD) is a graphical representation of the flow of data.
+-DFDs are commonly used to understand and document the flow of information within a system.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(5) What is Flow chart? create a flow chart of addition of 2 number.
+-A Flowchart is a visual representation of a process using pre defined shapes connected by arrows to show the flow of steps.
+- Flowchat is useful in many fields like software devlopment, engineering, business, education etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(6) what is use case diagram? Create a use case on bill payment on paytm. 
+- A use case diagram is a graphical representation of "how users interact with a system or software application","how much information they can access" and " how many functions they can access".
+
+
+
+
+
+
+
+
