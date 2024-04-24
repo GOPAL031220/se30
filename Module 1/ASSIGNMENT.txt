@@ -64,37 +64,11 @@ SDLC focus on the following phases of software development.
 
 (4) what is DFD? create a DFD diagram on flipcart.
 - A Data Flow Diagram (DFD) is a graphical representation of the flow of data.
--DFDs are commonly used to understand and document the flow of information within a system.
-
-
-
-
-
-
-
-
-
-
-
-
-
+-DFDs are commonly used to understand and document the flow of information within a system./
 
 (5) What is Flow chart? create a flow chart of addition of 2 number.
 -A Flowchart is a visual representation of a process using pre defined shapes connected by arrows to show the flow of steps.
 - Flowchat is useful in many fields like software devlopment, engineering, business, education etc.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 (6) what is use case diagram? Create a use case on bill payment on paytm. 
 - A use case diagram is a graphical representation of "how users interact with a system or software application","how much information they can access" and " how many functions they can access".
