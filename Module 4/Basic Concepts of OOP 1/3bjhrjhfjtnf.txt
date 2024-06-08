@@ -1,0 +1,22 @@
+OOP (Object-Oriented Programming) and POP (Procedural Oriented Programming) are two different programming paradigms with distinct approaches to organizing and structuring code.
+
+Object-Oriented Programming (OOP):
+
+Focuses on objects as the fundamental building blocks of programs.
+Emphasizes data encapsulation, inheritance, and polymorphism.
+Encourages the creation of reusable and modular code through the use of classes and objects.
+Supports concepts like abstraction, encapsulation, inheritance, and polymorphism.
+Examples of languages that support OOP include Java, C++, Python, and Ruby.
+Procedural Oriented Programming (POP):
+
+Organizes code around procedures or functions that operate on data.
+Typically relies on a top-down approach, where the program's execution flows from one procedure to another.
+Data and functions are separated, and data is often passed between functions explicitly.
+Lacks features like inheritance and polymorphism found in OOP languages.
+Examples of languages that support POP include C, Pascal, and Fortran.
+Key Differences:
+
+Abstraction: OOP allows for higher levels of abstraction through the use of classes and objects, while POP focuses more on procedures and functions.
+Encapsulation: OOP provides better encapsulation by bundling data and methods within objects, whereas POP may have data and functions more loosely coupled.
+Inheritance and Polymorphism: OOP supports inheritance (where one class can inherit properties and methods from another) and polymorphism (where objects of different classes can be treated as objects of a common superclass), whereas POP does not inherently support these concepts.
+Reusability: OOP promotes code reusability through the creation of classes and objects, which can be reused in different parts of the program or in different programs altogether. POP may have reusable functions, but not to the same extent as OOP.

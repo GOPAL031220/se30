@@ -1,0 +1,23 @@
+OOP stands for Object-Oriented Programming. It's a programming paradigm that revolves around the concept of "objects," which can contain data in the form of fields (attributes or properties) and code in the form of procedures (methods or functions). OOP focuses on organizing software design around objects and their interactions.
+
+Here are some key OOP concepts:
+
+Class: A blueprint for creating objects. It defines attributes and methods that are common to all objects of a certain kind.
+
+Object: An instance of a class. It's a concrete entity based on the class, with its own state and behavior.
+
+Encapsulation: The bundling of data (attributes) and methods that operate on the data into a single unit, called a class. It hides the internal state of an object from the outside world and only exposes a public interface to interact with it.
+
+Inheritance: The mechanism where a new class inherits properties and behavior (methods) from an existing class. It promotes code reusability and establishes a parent-child relationship between classes.
+
+Polymorphism: The ability of objects of different classes to be treated as objects of a common superclass. It allows methods to do different things based on the object that they are acting upon. Polymorphism is often achieved through method overriding and method overloading.
+
+Abstraction: The process of simplifying complex reality by modeling classes appropriate to the problem and hiding irrelevant details. It focuses on the essential characteristics of an object rather than the implementation details.
+
+Association: A relationship between two or more objects where each object has its own lifecycle and there's no ownership between them. It can be one-to-one, one-to-many, or many-to-many.
+
+Composition: A stronger form of association where the contained object cannot exist independently of the container object. It represents a "has-a" relationship.
+
+Aggregation: A specialized form of association where objects are associated with each other, but the associated objects can exist independently. It represents a "has-a" relationship, but with a weaker bond than composition.
+
+Message Passing: Objects communicate with each other by sending and receiving messages. A message is a request for an object to invoke one of its methods.
