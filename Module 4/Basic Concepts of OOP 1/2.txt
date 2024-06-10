@@ -1,0 +1,22 @@
+OOP stands for Object-Oriented Programming.
+It's a programming that treats data as critical element in program development. In Oop Data is hidden and cannot be accessed by external functions.
+
+Here are some key OOP concepts:
+
+Class:
+class is a collection of data members and member functions. when we define class it just creates template or skelton, so no memory is created when class is created.
+
+Object:
+object is a instance of class through the object we can access all the properties of class.
+
+Encapsulation:
+Encapsulation is defined as binding of data and information under single unit. It hides the internal state of an object from the outside world and only exposes a public interface to interact with it.
+
+Inheritance:
+The capability of a class to derive properties and characteristics from another class is called inheritance. It promotes code reusability and establishes a parent-child relationship between classes.
+
+Polymorphism:
+The ability of objects of different classes to be treated as objects of a common superclass. It allows methods to do different things based on the object that they are acting upon. Polymorphism is often achieved through method overriding and method overloading.
+
+Abstraction:
+Data abstraction refers to providing only essential information about the data to outside world, hiding the background details or implementation.
