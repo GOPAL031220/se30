@@ -4,7 +4,7 @@ using namespace std;
 class Bank
 {
 	public:
-		double account_number, balance=0;
+		double account_number, balance=5000;
 		
 		info()
 		{
