@@ -7,7 +7,7 @@ class Bank
 		string name="h",type;
 		double account_number, balance;
 		
-		info()
+		info() //new account register ke liye function
 		{
 			cout<<"\nEnter Your Name: ";
 			cin>>name;
@@ -23,7 +23,7 @@ class Bank
 			
 			cout<<""<<endl;
 		}
-		depo()
+		depo()   //account me pese deposite ke liye
 		{
 			double a;
 			cout<<"\nEnter Your Deposite Amount: ";
@@ -34,7 +34,7 @@ class Bank
 			cout<<"Your Updated Account Balance Is: "<<balance;
 			cout<<""<<endl<<endl;
 		}
-		with()
+		with()   //account se pese withdrawal ke liye
 		{
 			double b;
 			
@@ -54,7 +54,7 @@ class Bank
 		    }
 			cout<<""<<endl<<endl;
 		}
-		display()
+		display()    //bank account ki total detail display ke liye 
 		{
 			if(name=="h")
 			{
@@ -73,14 +73,14 @@ main()
 {
 	Bank obj;
 	
-	for(int i=0;i<=9999;i++)
+	for(int i=0;i<=9999;i++)      //for loop Bank ki menu ke liye
 	{
 		int choice,end=0;
 	
 	cout<<"Press 1 for New Account Open\nPress 2 for Deposite\nPress 3 for withdraw\nPress 4 for display Account Deatails\nPress 5 to Exit \n\nEnter Your Choice(1-5): ";
 	cin>>choice;
 	
-	switch (choice)
+	switch (choice)      //switch case choice ke hisab se function call karne ke liye
 	{
 	case 1:
 		obj.info();

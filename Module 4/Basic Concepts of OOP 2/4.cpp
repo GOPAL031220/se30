@@ -7,10 +7,10 @@ class Circle{
 		public:
 		area()
 		{
-			cout<<"Enter the Radius of Circle: ";
+			cout<<"Enter the Radius of Circle: ";   //input value
 			cin>>r;
 			
-			cout<<"\nArea of Circle is: "<<a*r*r<<endl;
+			cout<<"\nArea of Circle is: "<<a*r*r<<endl;  //result
 			cout<<"Circumference of Circle is: "<<2*a*r;
 		
 		}

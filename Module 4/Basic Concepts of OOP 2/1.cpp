@@ -4,7 +4,7 @@ using namespace std;
 class Calculator
 {
 	public:
-    	add()
+    	add()    //addition ke liye function
 		{
 			int a,b;
 			cout<<"\nEnter Number 1: ";
@@ -17,7 +17,7 @@ class Calculator
 			
 		}
 		
-		sub()
+		sub()     //substraction ke liye function
 		{
 			int a,b;
 			cout<<"\nEnter Number 1: ";
@@ -29,7 +29,7 @@ class Calculator
 			cout<<"Substraction: "<<a-b<<endl<<endl;
 			
 		}
-		multi()
+		multi()        //multiplication ke liye function
 		{
 			int a,b;
 			cout<<"\nEnter Number 1: ";
@@ -42,7 +42,7 @@ class Calculator
 			
 		}
 		
-		division()
+		division()          //division ke liye function
 		{
 			int a,b;
 			cout<<"\nEnter Number 1: ";
@@ -60,7 +60,7 @@ class Calculator
 main()
 {
 	
-	for(int i=0;i<=9999;i++)
+	for(int i=0;i<=9999;i++)  //for loop menu display ke liye
 	{
 	int choice,end=0;
 	
@@ -69,7 +69,7 @@ main()
 	
 	Calculator obj;
 	
-	switch (choice)
+	switch (choice)   //switch  case choice ke hisab se response ke liye
 	{
 	case 1:
 	{

@@ -7,17 +7,15 @@ class Rectangle{
 		public:
 		area()
 		{
-			cout<<"Enter the length of Rectangle: ";
+			cout<<"Enter the length of Rectangle: ";    //input
 			cin>>l;
 			
-			cout<<"Enter the width of Rectangle: ";
+			cout<<"Enter the width of Rectangle: ";      //input
 			cin>>w;
 			
-			cout<<"\nArea of Rectangle is: "<<l*w<<endl;
+			cout<<"\nArea of Rectangle is: "<<l*w<<endl;    //result
 			cout<<"Perimeter of Rectangle is: "<<2*(l+w);
-		
-		}
-	
+		}	
 };
 
 main()
