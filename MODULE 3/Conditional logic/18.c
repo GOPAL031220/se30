@@ -6,11 +6,11 @@ main()
 
     printf("Enter cost price: ");
     scanf("%d", &cp);
-    printf("Enter selling price: ");
+    printf("Enter selling price: ");   //user defined value stored
     scanf("%d", &sp);
     
-    if(sp > cp)
-    {
+    if(sp > cp)      //result
+    {     
         
         amt = sp - cp;
         printf("Profit = %d", amt);

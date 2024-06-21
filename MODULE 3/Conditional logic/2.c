@@ -3,12 +3,12 @@ main()
 {
 	int m;
 	
-	printf("Enter number: ");
+	printf("Enter number: ");  //user defined value stored
 	scanf("%d",&m);
 	
 	if(m==0)
 	{
-		printf("\nN= 0");
+		printf("\nN= 0");  //result
 	}
 	
 	else if(m>=1)

@@ -3,10 +3,10 @@ main()
 {
     int month;
 
-    printf("Enter month number (1-12): ");
+    printf("Enter month number (1-12): ");   //user defined value stored
     scanf("%d", &month);
 
-    if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
+    if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)   //result
 	{
         printf("31 Days.\n");
     }

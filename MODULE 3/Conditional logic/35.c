@@ -4,10 +4,10 @@ main()
 {
     int month_number;
 
-    printf("Enter the month number(1-12): ");
+    printf("Enter the month number(1-12): ");   //user defined value stored
     scanf("%d", &month_number);
 
-    switch (month_number)
+    switch (month_number)  //result
 	{
         case 1:
         case 3:

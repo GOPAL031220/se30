@@ -5,10 +5,10 @@ main()
     int units;
     float bill;
 
-    printf("Enter the number of electricity units: ");
+    printf("Enter the number of electricity units: ");   //user defined value stored
     scanf("%d", &units);
 
-    if (units <= 50)
+    if (units <= 50)  //bill calculation
 	{
         bill = units * 0.50;
     }
@@ -27,6 +27,6 @@ main()
 
     bill = bill*1.20;
 
-    printf("Total electricity bill: Rs. %.2f\n", bill);
+    printf("Total electricity bill: Rs. %.2f\n", bill);   //result
 
 }

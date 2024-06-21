@@ -3,12 +3,12 @@ main()
 {
 	int a;
 	
-	printf("Enter Temperature in Centigrade: ");
+	printf("Enter Temperature in Centigrade: ");   //user defined value stored
 	scanf("%d",&a);
 	
 	if(a<0)
 	{
-		printf("Freezing weather");
+		printf("Freezing weather");    //result
 	}
 	
 	else if(a>=0 && a<10)

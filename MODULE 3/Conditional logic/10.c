@@ -4,12 +4,12 @@ main()
 {
     int num;
 
-    printf("Enter a number: ");
+    printf("Enter a number: ");   //user defined value stored
     scanf("%d", &num);
 
     if (num > 0)
 	{
-        printf("The number is positive.\n");
+        printf("The number is positive.\n");   //result
     }
     
 	else if (num < 0)

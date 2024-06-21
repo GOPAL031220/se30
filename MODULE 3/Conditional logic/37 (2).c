@@ -4,7 +4,7 @@ main()
 {
     char ch;
 
-    printf("Enter a character: ");
+    printf("Enter a character: ");   //user defined value stored
     scanf(" %c", &ch);
 
     switch (ch) 
@@ -14,7 +14,7 @@ main()
         case 'i':
         case 'o':
         case 'u':
-            printf("%c is a vowel.\n", ch);
+            printf("%c is a vowel.\n", ch);   //result
             break;
             
         case 'A':

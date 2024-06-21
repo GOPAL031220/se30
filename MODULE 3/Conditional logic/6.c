@@ -3,10 +3,10 @@ main()
 {
 	char n;
 	
-	printf("Enter Character: ");
+	printf("Enter Character: ");  //user defined value stored
 	scanf("%c",&n);
 	
-	switch(n)
+	switch(n)     //result using switch case
 	{
 		case 'A':
 			printf("%c is vowel",n);

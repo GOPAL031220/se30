@@ -4,13 +4,13 @@ main()
 {
     int day;
 
-    printf("Enter the day number (1 for Monday, 2 for Tuesday, ..., 7 for Sunday): ");
+    printf("Enter the day number (1 for Monday, 2 for Tuesday, ..., 7 for Sunday): ");   //user defined value stored
     scanf("%d", &day);
 
     switch (day) 
 	{
         case 1:
-            printf("Monday\n");
+            printf("Monday\n");   //result
             break;
         case 2:
             printf("Tuesday\n");

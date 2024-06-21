@@ -4,7 +4,7 @@ main()
     int week_number;
 
     printf("Enter week number (1-7): ");
-    scanf("%d", &week_number);
+    scanf("%d", &week_number);   //user defined value stored
 
     switch(week_number)
 	{
@@ -18,7 +18,7 @@ main()
             printf("Tuesday\n");
             break;
         case 4:
-            printf("Wednesday\n");
+            printf("Wednesday\n");   //result
             break;
         case 5:
             printf("Thursday\n");

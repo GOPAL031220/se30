@@ -3,10 +3,10 @@ main()
 {
     float height;
 
-    printf("Enter the height of a person in centimeters: ");
+    printf("Enter the height of a person in centimeters: ");   //user defined value stored
     scanf("%f",&height);
 
-    if ((height > 135.0) && (height <= 150.0))
+    if ((height > 135.0) && (height <= 150.0))   //result
 	{
         printf("\nThe person is Small.");
     }

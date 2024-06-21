@@ -9,10 +9,10 @@ main()
 	printf("Enter Your Marks In Physics: ");
 	scanf("%d",&b);
 	
-	printf("Enter Marks In Chemistry: ");
+	printf("Enter Marks In Chemistry: ");   //user defined value stored
 	scanf("%d",&c);
 	
-	if(a>=65 && b>=55 && c>=50 && ((a+b+c)>=190 || (a+b)>=140))
+	if(a>=65 && b>=55 && c>=50 && ((a+b+c)>=190 || (a+b)>=140))    //result
 	
 	{
 		printf("\nCongratulation You Are Eligible for course");

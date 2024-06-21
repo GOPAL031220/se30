@@ -5,11 +5,11 @@ main()
 	
 	for(i=0;i<5;i++)
 	{
-		printf("Enter Amount of Expense %d: ",e);
+		printf("Enter Amount of Expense %d: ",e);   //user defined value stored
 		scanf("%d",&a[i]);
 		e++;
 	}
 	
-	printf("\nAverage of your Expenses is: %d",(a[0]+a[1]+a[2]+a[3]+a[4])/5);
+	printf("\nAverage of your Expenses is: %d",(a[0]+a[1]+a[2]+a[3]+a[4])/5);  //result
 	
 }

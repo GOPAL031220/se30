@@ -6,12 +6,12 @@ main()
 	printf("Enter number 1: ");
 	scanf("%d",&a);
 	
-	printf("Enter number 2: ");
+	printf("Enter number 2: ");   //user defined value stored
 	scanf("%d",&b);
 	
 	if(a==b)
 	{
-		printf("\nBoth Numbers are Equal");
+		printf("\nBoth Numbers are Equal");  //result
 	}
 	
 	else

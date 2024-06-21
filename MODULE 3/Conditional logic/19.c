@@ -11,11 +11,11 @@ main()
     scanf("%d", &customerID);
     printf("Enter customer name: ");
     scanf("%s", customerName);
-    printf("Enter units consumed: ");
+    printf("Enter units consumed: ");    //user defined value stored
     scanf("%d", &unitsConsumed);
 
 
-    if (unitsConsumed < 350)
+    if (unitsConsumed < 350)   //conditions used for bill calculation
 	{
         totalAmount = unitsConsumed * 1.20;
     }
@@ -46,7 +46,7 @@ main()
 
     printf("\nElectricity Bill:\n");
     printf("Customer ID: %d\n", customerID);
-    printf("Customer Name: %s\n", customerName);
+    printf("Customer Name: %s\n", customerName);   ///result
     printf("Units Consumed: %d\n", unitsConsumed);
     printf("Total Amount: %.2f\n", totalAmount);
     

@@ -2,12 +2,12 @@
 
 int main() {
     int year;
-    printf("Enter a year: ");
+    printf("Enter a year: ");   //user defined value stored
     scanf("%d", &year);
 
-    if (year % 400 == 0)
+    if (year % 400 == 0)  //conditions used to detect leap year
 	{
-        printf("%d is a leap year.\n", year);
+        printf("%d is a leap year.\n", year);  
     }
     
     else if (year % 100 == 0)

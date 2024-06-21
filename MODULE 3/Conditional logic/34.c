@@ -4,12 +4,12 @@ main()
 {
     int month_number;
 
-    printf("Enter the month number(1-12): ");
+    printf("Enter the month number(1-12): ");   //user defined value stored
     scanf("%d", &month_number);
 
     if (month_number == 1)
 	{
-        printf("The month is January\n");
+        printf("The month is January\n");   //result
     }
 	else if (month_number == 2) 
 	{
