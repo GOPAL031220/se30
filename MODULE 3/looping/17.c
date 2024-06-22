@@ -5,7 +5,7 @@ int main() {
     int i = 1;
 
     while (i <= 5) {
-        printf("Enter number %d: ", i);
+        printf("Enter number %d: ", i);  //user defined value stored
         scanf("%d", &num);
 
         if (num % 2 == 0)
@@ -20,7 +20,7 @@ int main() {
         i++;
     }
 
-    printf("\nNumber of even numbers: %d\n", even_count);
+    printf("\nNumber of even numbers: %d\n", even_count);   //result
     printf("Number of odd numbers: %d\n", odd_count);
 
 }

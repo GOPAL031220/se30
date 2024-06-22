@@ -13,5 +13,5 @@ main()
     }
     last = number % 10;      //capture last digit
     
-    printf("Summation of first and last Digit of %d is %d\n", realnumber, first + last);
+    printf("Summation of first and last Digit of %d is: %d\n", realnumber, first + last);
 }

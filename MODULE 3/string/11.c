@@ -4,7 +4,7 @@ int main()
 {
     char sentence[100];
 
-    printf("Enter a sentence: ");
+    printf("Enter a sentence: ");  //user defined value stored
     gets(sentence);
     
     sentence[strlen(sentence)] = '\0'; // remove the newline character
@@ -13,7 +13,7 @@ int main()
     for (i = 0; sentence[i]!= '\0'; i++) {
         if (islower(sentence[i]))
 		{
-            sentence[i] = toupper(sentence[i]);
+            sentence[i] = toupper(sentence[i]);  //convert
         }
 		else if (isupper(sentence[i]))
 		{
@@ -21,5 +21,5 @@ int main()
         }
     }
 
-    printf("Modified sentence: %s\n", sentence);
+    printf("Modified sentence: %s\n", sentence);  //result
 }

@@ -8,7 +8,7 @@
  		
  		for(j=0;j<3;j++)
  		{
- 			printf("\nEnter Number :");
+ 			printf("\nEnter Number :");    //user defined value stored
  			scanf("%d",&a[i][j]);
 		}
  		
@@ -18,7 +18,7 @@
  	{
  		for(j=0;j<3;j++)
  		{
- 			printf("\na[%d][%d] number is : %d",i,j,a[i][j]);
+ 			printf("\na[%d][%d] number is : %d",i,j,a[i][j]);    //result print
  		
 		}
  		

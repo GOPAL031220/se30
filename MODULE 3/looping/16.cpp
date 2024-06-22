@@ -4,7 +4,7 @@ main()
 {
 	int a,sum=0;
 	
-	printf("Enter your Natural Number: ");
+	printf("Enter your Natural Number: ");    //user defined value stored
 	scanf("%d",&a);
 	
 	int i=1;
@@ -14,7 +14,7 @@ main()
 		i++;
 	}
 	
-	printf("\nSum of natural Numbers is: %d",sum);
+	printf("\nSum of natural Numbers is: %d",sum);  //result
 	
 	
 }

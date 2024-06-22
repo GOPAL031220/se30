@@ -6,14 +6,14 @@ main()
 	
 	for(i=0;i<5;i++)
 	{
-		printf("\nEnter Your Number: ");
+		printf("\nEnter Your Number: ");   //user defined value stored
 		scanf("%d",&a[i]);
 		
 	}
 	
 	for(i=0;i<5;i++)
 	{
-		printf("\nYour Number is: %d",a[i]);
+		printf("\nYour Number is: %d",a[i]);   //result
 	}
 	
 	

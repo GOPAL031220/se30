@@ -7,11 +7,11 @@ main()
 
     for (i = 0; i < 5; i++)
 	{
-        printf("Enter name of student %d: ", i+1);
+        printf("Enter name of student %d: ", i+1);   //user defined value stored
         scanf("%s", students[i]);
     }
 
-    printf("\nHere are the names of the students:\n");
+    printf("\nHere are the names of the students:\n");     //result
     for (i = 0; i < 5; i++)
 	{
         printf("%s\n", students[i]);

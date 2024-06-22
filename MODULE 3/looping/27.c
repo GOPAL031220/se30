@@ -5,10 +5,10 @@ int main()
     int n,i;
     float sum = 0.0;
 
-    printf("Enter a positive integer: ");
+    printf("Enter a positive integer: ");   //user defined value stored
     scanf("%d", &n);
 
-    for(i = 1; i <= n; i++)
+    for(i = 1; i <= n; i++)    //make calculation
 	{
         if(i % 2 == 0)
 		{
@@ -19,5 +19,5 @@ int main()
             sum =sum + (float)i / (i + 1);
         }
     }
-    printf("\nThe sum of the series 1/2 - 2/3 + 3/4 - 4/5 + 5/6 ... is: %.3f", sum);
+    printf("\nThe sum of the series 1/2 - 2/3 + 3/4 - 4/5 + 5/6 ... is: %.3f", sum);   //result
 }

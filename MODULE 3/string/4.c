@@ -4,10 +4,12 @@ int main()
 {
     char str[256];
     
-    printf("Enter string: ");
+    printf("Enter string: ");   //user defined value stored
     gets(str);
     
     int i, word_count = 0;
+    
+    str[strlen(str)]='0';
 
     for (i = 0; str[i]!= '\0'; i++) 
 	{

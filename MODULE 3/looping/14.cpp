@@ -4,14 +4,14 @@ fac()
 {
 	double n,i,fac=1;
 	
-	printf("Enter number for factorial: ");
+	printf("Enter number for factorial: ");  //user defined value stored
 	scanf("%lf",&n);
 	
 	for(i=1;i<=n;i++)
 	{
 		fac=fac*i;
 	}
-	printf("factorial is: %.lf\n\n",fac);
+	printf("factorial is: %.lf\n\n",fac);   //result
 }
 
 main()

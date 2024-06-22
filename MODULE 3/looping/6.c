@@ -4,7 +4,7 @@ main()
 {
 	int a=0,b=1,c,i,j;
 	
-	printf("Enter Number: ");
+	printf("Enter Number: ");   //user defined value stored
 	scanf("%d",&j);
 	
 	printf("%d\n",a);
@@ -13,7 +13,7 @@ main()
 	for(i=3;i<=j;i++)
 	{
 		c=a+b;
-		printf("%d\n",c);
+		printf("%d\n",c);    //result
 		a=b;
 		b=c;
 	}

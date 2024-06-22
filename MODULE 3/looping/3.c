@@ -10,7 +10,7 @@ int main()
 
     for(i = 0; i < 10; i++) 
 	{
-        printf("Enter number %d: ", i+1);
+        printf("Enter number %d: ", i+1);   //user defined value stored
         scanf("%d", &numbers[i]);
     }
 
@@ -20,18 +20,18 @@ int main()
         if(numbers[i] % 2 == 0)
 		{
             even_count++;
-            even_sum += numbers[i];
+            even_sum += numbers[i];   //sum of even numbers
             
         } 
 		else
 		{
             odd_count++;
-            odd_sum += numbers[i];
+            odd_sum += numbers[i];    //sum of odd numbers
         }
     }
 
     
-    printf("\na. How many Even numbers are there: %d\n", even_count);
+    printf("\na. How many Even numbers are there: %d\n", even_count);   //result
     printf("b. How many odd numbers are there: %d\n", odd_count);
     printf("c. Sum of even numbers: %d\n", even_sum);
     printf("d. Sum of odd numbers: %d\n", odd_sum);

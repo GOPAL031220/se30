@@ -15,8 +15,8 @@ main() {
 		{ 
             maxdigit = digit;
         }
-        num = num / 10;  ///delete last digit
+        num = num / 10;  //delete last digit
     }
-    printf("Max digit in %d is %d\n", originalNum,maxdigit);
+    printf("Max digit in %d is %d\n", originalNum,maxdigit);  //result 
 }
 

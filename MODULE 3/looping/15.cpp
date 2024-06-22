@@ -6,7 +6,7 @@ main()
 	int i=0;
 	while(i<10)
 	{
-		printf("Enter Your Number: ");
+		printf("Enter Your Number: ");    //user defined value stored
 		scanf("%d",&a[i]);
 		i++;
 	}
@@ -17,5 +17,5 @@ main()
 		sum=sum+a[j];
 		j++;
 	}
-	printf("\nSum of 10 Numbers is: %d",sum);
+	printf("\nSum of 10 Numbers is: %d",sum);   //result
 }

@@ -25,7 +25,7 @@ main()
 
     for (i = 0; str[i] != '\0'; i++)
 	{
-        printf("Character %d: %c\n", i + 1, str[i]);   //print string individual charactor 
+        printf("Character %d: %c\n", i + 1, str[i]);   //print string individual charactor in reversed order
     }
     str[i]='0';
 }

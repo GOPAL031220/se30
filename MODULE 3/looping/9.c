@@ -2,7 +2,7 @@
 
 main() {
     int number,sum=0,realnumber;
-    printf("Enter a number: ");
+    printf("Enter a number: ");   //user defined value stored
     scanf("%d", &number);
     
     realnumber=number;

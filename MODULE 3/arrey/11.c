@@ -2,7 +2,7 @@
 
 main()
 {
-	int i,a[5];
+	int i,a[256];
 	
 	for(i=0;i<5;i++)   ///accept 5 numbers from user
 	{

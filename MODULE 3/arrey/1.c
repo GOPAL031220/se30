@@ -2,16 +2,16 @@
 main()
 {
     int n,i,j, a[256];
-    printf("How Many Number you Want to Enter: ");
+    printf("How Many Number you Want to Enter: ");   //user defined value stored
     scanf("%d", &n);
     
     for(i = 0; i < n; i++)
 	{
-        printf("Enter Number: ");
+        printf("Enter Number: ");       //user defined value stored
         scanf("%d", &a[i]);
     }
     
-    for(i=0;i<n;i++)
+    for(i=0;i<n;i++)   //swapping in decreising order
     {
     	for(j=0;j<n;j++)
     	{

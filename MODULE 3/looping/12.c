@@ -14,7 +14,7 @@ count_digits(int number)  //number ke total digits count karega
 
 int main() {
     int number,original_number,sum = 0;
-    printf("Enter a number: ");   ///user input & store
+    printf("Enter a number: ");   //user input & store
     scanf("%d", &number);
     original_number = number;
     

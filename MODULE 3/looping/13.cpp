@@ -4,7 +4,7 @@ main()
 {
 	double n,i=1,fac=1;
 	
-	printf("Enter number for factorial: ");
+	printf("Enter number for factorial: ");   //user defined value stored
 	scanf("%lf",&n);
 	
 	while(i<=n)
@@ -12,6 +12,6 @@ main()
 		fac=fac*i;
 		i++;
 	}
-	printf("\nfactorial is: %.lf",fac);
+	printf("\nfactorial is: %.lf",fac);   //result
 		
 }
