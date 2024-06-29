@@ -1,0 +1,14 @@
+CREATE TABLE viewtable (temployee_id int,
+                      tfirst_name varchar(20),
+                      tlast_name varchar(20),
+                      tsalary int,
+                      tjoining_date varchar(30),
+                      tdepartment varchar(20),
+                      ttime timestamp,
+                      action_performed varchar(20)
+                      );
+
+CREATE TRIGGER t11 AFTER INSERT ON employee FOR EACH ROW
+
+INSERT INTO viewtable(temployee_id,tfirst_name,tlast_name,tsalary,tjoining_date,tdepartment,action_performed) VALUES
+(new.employee_id,new.first_name,new.last_name,new.salary,new.joining_date,new.department,"data inserted");

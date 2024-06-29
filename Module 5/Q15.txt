@@ -1,0 +1,1 @@
+SELECT * FROM salesperson WHERE city='barcelona' || city='london';

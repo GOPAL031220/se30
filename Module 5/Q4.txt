@@ -1,0 +1,1 @@
+SELECT First_Name,salary, joining_date FROM employee WHERE employee_id = 4;

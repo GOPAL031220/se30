@@ -1,0 +1,31 @@
+CREATE DATABASE q11;
+
+CREATE TABLE salesperson (sno int PRIMARY KEY AUTO_INCREMENT not null,
+                          sname varchar(20) UNIQUE KEY,
+                          city varchar(20),
+                          comm decimal(2,2)
+                          );
+
+INSERT INTO salesperson (sno,sname,city,comm) VALUES (1001,"peel","london",0.12),
+(1002,"serres","san jose",0.13),
+(1003,"axelrod","new york",0.1),
+(1004,"motika","london",0.11),
+(1007,"rafkin","barcelona",0.15);
+
+CREATE TABLE customer(cnm int PRIMARY KEY AUTO_INCREMENT not null,
+                      cname varchar(20) UNIQUE KEY,
+                      city varchar(20),
+                      rating int,
+                      sno int,
+                      FOREIGN KEY(sno) REFERENCES salesperson(sno)
+                      );
+
+INSERT INTO customer(cnm,cname,city,rating,sno) VALUES
+(201,"hoffman","london",100,1001),
+(202,"giovanne","roe",200,1003),
+(203,"liu","san jose",300,1002),
+(204,"grass","barcelona",100,1002),
+(206,"clemens","london",300,1007),
+(207,"pereira","roe",100,1004);
+
+

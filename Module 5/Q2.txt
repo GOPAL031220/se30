@@ -1,0 +1,33 @@
+CREATE TABLE Employee(employee_id int PRIMARY KEY,
+                      first_name varchar(20),
+                      last_name varchar(20),
+                      salary int,
+                      joining_date varchar(30),
+                      department varchar(20)
+                      );
+
+INSERT INTO employee(employee_id,first_name,last_name,salary,joining_date,department) VALUES
+(1,"john","Abraham",1000000,"01-jan-13 12.00.00 AM","banking"),
+(2,"michael","clarke",800000,"01-jan-13 12.00.00 AM","insurance"),
+(3,"roy","thomas",700000,"01-feb-13 12.00.00 AM","banking"),
+(4,"tom","jose",600000,"01-feb-13 12.00.00 AM","insurance"),
+(5,"jerry","pinto",650000,"01-feb-13 12.00.00 AM","insurance"),
+(6,"philip","mathew", 750000,"01-jan-13 12.00.00 AM","services"),
+(7,"testname1","123",650000,"01-jan-13 12.00.00 AM","services"),
+(8,"testname2","Lname%",600000,"01-feb-13 12.00.00 AM","insurance");
+
+CREATE TABLE incentive(Employee_ref_id int,
+                       incentive_date varchar(20),
+                       incentive_amount int,
+                       
+                       FOREIGN KEY (Employee_ref_id) REFERENCES employee(employee_id)
+                       );
+
+INSERT INTO incentive(Employee_ref_id,incentive_date,incentive_amount) VALUES
+(1,"01-FEB-13",5000),
+(2,"01-FEB-13",3000),
+(3,"01-FEB-13",4000),
+(1,"01-JAN-13",4500),
+(2,"01-JAN-13",3500);
+                    
+                 

@@ -1,0 +1,96 @@
+(1) What do you understand ByDatabase ?
+A database is a structured collection of data organized in such a way that it can be easily accessed, managed, and updated. It typically resides on a computer system and is designed to manage large volumes of data efficiently. Databases are essential for storing and retrieving information in various applications.
+
+
+
+(2) What is Normalization ?
+Normalization involves structuring a database in a way that reduces redundancy, which is the repetition of data within the database tables. Redundancy can lead to issues such as insertion, deletion, and update anomalies, where inconsistencies and errors can occur in the data. Therefore, normalization aims to minimize these problems by organizing data more efficiently and ensuring that each piece of information is stored in only one place within the database.
+
+
+
+(3) What is Difference between DBMS and RDBMS ?
+The main difference between DBMS (Database Management System) and RDBMS (Relational Database Management System) lies in their structure and functionality:
+
+Structure:
+DBMS:A DBMS is a software system that allows for the creation, management, and manipulation of databases. It provides an interface to interact with databases, storing and retrieving data as needed.
+RDBMS:An RDBMS is a type of DBMS that manages data according to the relational model. It organizes data into related tables, where each table consists of rows (records) and columns (attributes). The relationships between tables are established using keys.
+
+Data Storage:
+DBMS: In a DBMS, data is typically stored in files or a simple data structure without imposing any specific structure on the data itself.
+RDBMS: In an RDBMS, data is structured into tables, where each table has predefined columns with specific data types. Tables can be related to each other through keys (primary and foreign keys).
+
+Data Integrity:
+DBMS: DBMS systems may or may not enforce referential integrity and constraints on data. They offer basic functionalities for data storage and retrieval.
+RDBMS: RDBMS systems enforce referential integrity and constraints (like unique constraints, primary keys, foreign keys) to ensure data accuracy and consistency. This helps maintain the relational structure and integrity of the data.
+
+Query Language:
+DBMS: DBMS systems generally support their own query languages, which may not necessarily be standardized.
+RDBMS: RDBMS systems typically use SQL (Structured Query Language) as the standard language for querying and manipulating data. SQL provides a powerful and standardized way to interact with relational databases.
+
+Scalability and Performance:
+DBMS: DBMS systems may have limitations in terms of scalability and performance when dealing with large volumes of data or complex queries.
+RDBMS: RDBMS systems are designed to handle large datasets efficiently and support complex queries involving multiple tables.
+
+
+
+
+(4) What is MF Cod Rule of RDBMS Systems?
+
+
+
+
+(5) What do you understand ByData Redundancy
+Data redundancy refers to the unnecessary repetition or duplication of data within a database system. It occurs when the same data is stored in multiple places, either within the same database or across different databases.
+
+
+
+(6) What is DDL Interpreter?
+A DDL Interpreter (Data Definition Language Interpreter) is a component or module within a database management system (DBMS) responsible for processing and executing Data Definition Language (DDL) statements. DDL statements are used to define, modify, and manage the structure of the database schema. They include commands such as CREATE, ALTER, DROP, and TRUNCATE.
+
+
+
+(7) What is DML Compiler in SQL?
+A DML Compiler refers to a component or module within a database management system (DBMS) that processes and executes Data Manipulation Language (DML) statements. DML statements are used to retrieve, manipulate, and manage data stored in the database tables. Examples of DML statements include SELECT, INSERT, UPDATE, DELETE, etc.
+
+
+
+(8) What is SQL Key Constraints writing an Example of SQL Key Constraints?
+SQL key constraints are rules that enforce uniqueness and integrity within a relational database.
+
+There are primarily three types of key constraints defined in SQL:
+(A) Primary Key Constraint: A primary key constraint uniquely identifies each record in a table. It consists of one or more columns whose values uniquely identify each row in the table. The primary key constraint ensures that the values in the specified column(s) are unique and not null.
+
+(b) Unique Constraint: A unique constraint ensures that all values in a column (or a set of columns) are distinct. Unlike a primary key, a table can have multiple unique constraints.
+
+(c) Foreign Key Constraint: A foreign key constraint establishes a relationship between two tables. It ensures that the values in a column (or set of columns) in one table match the values in a column (or set of columns) in another table.
+
+
+
+(9) What is Save Point? How to create a save Point write a Query?
+
+
+
+
+(10) What is trigger and how to create a Trigger in SQL?
+In SQL, a trigger is a special type of stored procedure that is automatically executed (or fired) in response to certain events on a particular table or view in a database. These events can include INSERT, UPDATE, or DELETE operations. Triggers are useful for enforcing business rules, validating input data, maintaining referential integrity, and performing complex calculations or logging operations.
+
+Types of Triggers
+BEFORE Triggers: These triggers are fired before the triggering event (like INSERT, UPDATE, DELETE) occurs on the table. They can be used to validate or modify data before it is inserted, updated, or deleted.
+
+AFTER Triggers: These triggers are fired after the triggering event has occurred. They are often used for tasks that should happen after data modification, such as updating related tables or logging changes.
+
+Example:
+CREATE TRIGGER t01 AFTER DELETE ON se32 FOR EACH ROW
+
+INSERT INTO trigger01(tid,tnmae,tmobile,tcity,action_performed) VALUES
+(old.id,old.name,old.mobile,old.email,old.city,"data deleted");       
+
+
+
+
+
+
+
+
+
+
