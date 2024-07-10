@@ -1,0 +1,11 @@
+a:link {
+    color: #00698f;
+    text-decoration: none;
+  }
+  
+  /* Hover link */
+  a:hover {
+    color: #ff69b4; /* pink */
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,15 @@
+Define the terms: Website, Webpage, Web browser, Web server, HTML,CSS
+
+
+1. Website: A website is a collection of web pages, images, videos, and other digital content that are hosted on a server and can be accessed via the internet. A website is typically identified by a unique domain name and can be accessed using a web browser.
+
+2. Webpage: A webpage is a single document or page on a website that displays content to the user. A webpage can contain text, images, videos, links, and other multimedia elements. Webpages are typically written in HTML (Hypertext Markup Language) and are accessed using a web browser.
+
+3. Web browser: A web browser is a software application that allows users to access and view websites on the internet. Popular web browsers include Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge. A web browser retrieves webpages from a web server and displays them to the user, allowing them to interact with the content.
+
+4. Web server: A web server is a computer or software that hosts and serves websites over the internet. When a user requests a webpage, the web server retrieves the requested webpage from its storage and sends it to the user's web browser. Web servers use protocols such as HTTP (Hypertext Transfer Protocol) to communicate with web browsers.
+
+5. HTML (Hypertext Markup Language): HTML is a standard markup language used to create webpages. It is the backbone of a website, providing the structure and content that the web browser renders to the user. HTML consists of a series of elements, represented by tags (<>), that define different parts of a webpage, such as headings, paragraphs, images, and links.
+
+6. CSS (Cascading Style Sheets): CSS is a styling language used to control the layout and appearance of webpages written in HTML. CSS allows web developers to separate the presentation of a webpage from its structure, making it easier to maintain and update the design of a website. CSS defines the visual styles, such as colors, fonts, and spacing, that are applied to HTML elements.
+

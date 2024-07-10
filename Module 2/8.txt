@@ -1,0 +1,7 @@
+CSS Can be integrated as a web page in 3 ways. 
+
+(1) Inline CSS: This method involves adding CSS styles directly to an HTML element using the style attribute.
+
+(2) Internal CSS: CSS can be written within the <head> section of an HTML document using the <style> element.
+
+(3) External CSS: CSS can be written in a separate file with a .css extension and linked to an HTML document using the <link> element.

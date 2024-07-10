@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<style>
+		.container {
+			width: 50%;
+			margin: 40px auto;
+			background-color: #fff;
+			padding: 20px;
+		}
+		
+		label {
+			margin-bottom: 10px;
+		}
+		
+		input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+			width: 100%;
+            padding: 10px;
+			margin-bottom: 10px;
+		}
+		
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+
+		}
+		
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body style="background-color: rgb(219, 255, 99);">
+	<div class="container">
+		<center><h1>Registration Form</h1></center>
+		<form>
+			<label for="firstname">First Name:</label>
+			<input type="text" id="firstname" name="firstname"><br><br>
+			
+			<label for="lastname">Last Name:</label>
+			<input type="text" id="lastname" name="lastname"><br><br>
+			
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email"><br><br>
+			
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password"><br><br>
+			
+			<label for="confirm-password">Confirm Password:</label>
+			<input type="password" id="confirm-password" name="confirm-password"><br><br>
+			
+			<label for="phone">Phone Number:</label>
+			<input type="tel" id="phone" name="phone"><br><br>
+			
+			<input type="submit" value="Register">
+		</form>
+	</div>
+</body>
+</html>
